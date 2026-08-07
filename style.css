@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/*Header*/
+
+.main-header {
+    display: flex;
+    background-color: black;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chaudhary {
+    color: rgb(225, 232, 239);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.chaudhary span {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    margin-right: 200px;
+    gap: 50px;
+}
+
+nav {
+    padding: 3px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+nav a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+/*Main*/
+
+.name {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(245, 238, 227);
+    text-decoration: none;
+}
+
+.title {
+    color: gainsboro;
+    text-align:center;
+    margin-top: 10px;
+    font-size: 22px
+}
+
+.main-page {
+    text-align:center;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+
+img {
+    flex: 1;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8%;
+    box-shadow: 1px 1px 20px 10px rgb(212, 198, 212);
+}
+
+.intro {
+    flex: 1;
+    padding: 40px 40px;
+    font-size: x-large;
+
+}
+
+
+/*Footer */
+
+footer {
+    border-top: 2px solid rgb(212, 198, 212);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer p {
+    padding-top: 12px;
+}
+
+/*Background*/
+
+.about {
+    color: rgb(245, 238, 227);
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.whoami {
+    text-align: center;
+    font-size: x-large;
+}
+
+.bgboxes {
+    gap: 30px;
+    padding: 20px;
+}
+
+.bgcard {
+    background-color: rgb(30, 30, 30);
+    width: 90%;
+    max-width: 500px;
+    min-height:auto;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+
+.hbox {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(225, 232, 239);
+}
+
+.box {
+    margin: 2px;
+    font-size: large;
+    padding: 20px;
+}
+
+/*Compentencies*/
+
+.skill {
+    color: rgb(245, 238, 227);
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.myskill {
+    text-align: center;
+    font-size: x-large;
+}
+
+.skillname {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    color: rgb(225, 232, 239);
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.corebgcard {
+    background-color: rgb(30, 30, 30);
+    width: 500px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/*Projects*/
+
+.projects {
+    color: rgb(245, 238, 227);
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.myprojects {
+    text-align: center;
+    font-size: x-large;
+}
+
+.my1project {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    color: rgb(225, 232, 239);
+}
+
+.portfolio {
+    text-align: center;
+    font-size: medium;
+    padding: 20px;
+}
+
+.projectsbgcard {
+    background-color: rgb(30, 30, 30);
+    width: 500px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.plink{
+    display: inline-block;
+    background-color:rgb(81, 80, 80);
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.plink a{
+    text-decoration: none;
+    color: rgb(255, 253, 254);
+
+
+}
+
+/*Reach me*/
+
+.reach {
+    color: rgb(245, 238, 227);
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.iwelcome {
+    text-align: center;
+    font-size: x-large;
+}
+
+.reachbgcard {
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    max-width: 500px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(225, 232, 239);
+    padding: 3px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.reachbgcard .btn{
+    text-decoration: none;
+    color: rgb(255, 253, 254);
+    background-color:rgb(81, 80, 80);
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-size: large;
+}
+
+/*Display*/
+
+@media (max-width: 768px) {
+    .main-page {
+        flex-direction: column;}
+    .intro{
+        padding: 5px 5px;
+        font-size: larger;
+    }
+    .corebgcard{
+        max-width:90%;
+    }
+    .projectsbgcard{
+        max-width:350px;
+    }
+    .main-header {
+        padding: 10px;
+    }
+    
+    .chaudhary {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chaudhary span{
+        margin-right: 0px;
+        text-align: center;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+ }
+
+ @media (min-width: 769px) and (max-width: 1024px) {
+
+    .main-page {
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .img {
+        flex: 1;
+    }
+
+    .intro {
+        flex: 1;
+        padding: 20px;
+        font-size: large;
+    }
+}
