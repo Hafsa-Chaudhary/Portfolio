@@ -230,7 +230,7 @@ ul {
 .projectsbgcard {
     background-color: rgb(30, 30, 30);
     display: flex;
-    flex-direction;
+    flex-direction: column;
     width: 500px;
     height: auto;
     margin: 30px auto;
