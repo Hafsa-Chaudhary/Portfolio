@@ -261,6 +261,11 @@ ul {
     text-align: center;
 }
 
+.viewlink a{
+     text-decoration: none;
+    color: rgb(255, 253, 254);
+    text-align:right;
+    
 /*Reach me*/
 
 .reach {
