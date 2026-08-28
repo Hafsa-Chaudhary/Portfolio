@@ -258,6 +258,7 @@ ul {
      display: inline-flex;
     align-items:center;
     background-color:rgb(81, 80, 80);
+    margin-left:auto;
     padding: 10px 12px;
     border-radius: 30px;
     font-size: large;
