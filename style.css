@@ -229,14 +229,13 @@ ul {
 
 .projectsbgcard {
     background-color: rgb(30, 30, 30);
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction;
     width: 500px;
     height: auto;
     margin: 30px auto;
     border-radius: 20px;
     padding: 20px;
-
 }
 
 .plink{
@@ -254,11 +253,10 @@ ul {
     color: rgb(255, 253, 254);
 }
 
-.viewlink{
-     display: inline-flex;
-    align-items:center;
-    background-color:rgb(81, 80, 80);
-    margin-left:auto;
+.viewlink {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(81, 80, 80);
     padding: 10px 12px;
     border-radius: 30px;
     font-size: large;
@@ -270,10 +268,10 @@ ul {
     text-align:center;
 }
 
-.Buttons{
-    display:flex;
-    justify-content:space-between;
-    width:100%;
+.Buttons {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
 }
 
 /*Reach me*/
