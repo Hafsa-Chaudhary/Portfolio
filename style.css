@@ -322,6 +322,7 @@ h3 {
 /*Display*/
 
 @media (max-width: 768px) {
+    
     .main-page {
         flex-direction: column;}
     .intro{
@@ -332,8 +333,6 @@ h3 {
         max-width:90%;
     }
     .projectsbgcard{
-        margin-right:5px;
-        margin-left:5px;
         max-width:350px;
     }
     .main-header {
