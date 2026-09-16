@@ -322,6 +322,11 @@ h3 {
 /*Display*/
 
 @media (max-width: 768px) {
+
+    body{
+        padding-right:10px;
+        padding-left:10px;
+    }
     
     .main-page {
         flex-direction: column;}
@@ -361,6 +366,11 @@ h3 {
 
  @media (min-width: 769px) and (max-width: 1024px) {
 
+     body{
+        padding-right:10px;
+        padding-left:10px;
+    }
+     
     .main-page {
         flex-direction: row;
         gap: 20px;
