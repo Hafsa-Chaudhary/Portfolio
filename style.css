@@ -330,6 +330,7 @@ h3 {
     
     .main-page {
         flex-direction: column;}
+    
     .intro{
         padding: 5px 5px;
         font-size: larger;
@@ -338,7 +339,7 @@ h3 {
         max-width:90%;
     }
     .projectsbgcard{
-        max-width:350px;
+        max-width:90%;
     }
     .main-header {
         padding: 10px;
